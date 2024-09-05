@@ -20,7 +20,6 @@ public class SpringConfig {
     }
 
     @Bean
-
     public ViewResolver resolver(){
 
         ViewResolver view= new InternalResourceViewResolver("/",".jsp");
